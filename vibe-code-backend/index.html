@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VibeCode Library</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1 class="logo">VibeCode</h1>
+      <nav class="nav">
+        <a href="#" class="nav-item">Profile</a>
+        <a href="#" class="nav-item active">Library</a>
+        <a href="#" class="nav-item">Settings</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2 class="page-title">Data Table</h2>
+
+      <!-- Controls -->
+      <div class="controls">
+        <input type="text" placeholder="Search" class="search-box" />
+        <button class="button">Tags</button>
+        <button class="button">Sort</button>
+      </div>
+
+      <!-- Table -->
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>ITEM</th>
+            <th>Name</th>
+            <th>Tags</th>
+            <th>Difficulty (1-5)</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Sum of Array</td><td>Array, Math</td><td>1</td><td><span class="status">Status</span></td></tr>
+          <tr><td>2</td><td>Median of Array</td><td>Array, Math</td><td>2</td><td><span class="status">Status</span></td></tr>
+          <tr><td>3</td><td>Shortest Path</td><td>Graphs, Greedy</td><td>3</td><td><span class="status">Status</span></td></tr>
+          <tr><td>4</td><td>Tree search</td><td>Search, Trees</td><td>2</td><td><span class="status">Status</span></td></tr>
+          <tr><td>5</td><td>Merge sorted arrays</td><td>Merging, Sorting</td><td>3</td><td><span class="status">Status</span></td></tr>
+          <tr><td>6</td><td>...</td><td>...</td><td>...</td><td><span class="status">Status</span></td></tr>
+          <tr><td>7</td><td></td><td></td><td></td><td><span class="status">Status</span></td></tr>
+          <tr><td>8</td><td></td><td></td><td></td><td><span class="status">Status</span></td></tr>
+          <tr><td>9</td><td></td><td></td><td></td><td><span class="status">Status</span></td></tr>
+          <tr class="highlight-row"><td>10</td><td></td><td></td><td></td><td><span class="status">Status</span></td></tr>
+        </tbody>
+      </table>
+
+      <!-- Footer -->
+      <div class="footer">
+        <span>106 Problems</span>
+        <div class="pagination">
+          <span class="page active">1</span>
+          <span class="page">2</span>
+          <span class="page">3</span>
+          <span class="page">...</span>
+          <span class="page">10</span>
+          <span class="page">11</span>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
