@@ -7,7 +7,9 @@ import dotenv from 'dotenv';
 import Problem from './models/Problem.js';
 import problemRoutes from './routes/problemRoutes.js';
 import submitRoute from './routes/submitRoute.js';
+import submissionRoutes from './routes/submissionRoutes.js';
 import authRoutes from './routes/authRoutes.js';
+
 
 dotenv.config();
 
@@ -31,6 +33,7 @@ app.get('/', (req, res) => {
 // API routes
 app.use('/api/problems', problemRoutes);
 app.use('/api/submit', submitRoute);
+app.use('/api/submissions', submissionRoutes);
 app.use('/api/auth', authRoutes);
 
 // Start server
